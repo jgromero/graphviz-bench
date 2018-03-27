@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.xmlbeans:xmlbeans:2.6.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.xmlbeans/xmlbeans/jars/xmlbeans-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

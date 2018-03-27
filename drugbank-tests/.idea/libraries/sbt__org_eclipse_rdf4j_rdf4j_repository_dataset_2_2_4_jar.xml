@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.eclipse.rdf4j:rdf4j-repository-dataset:2.2.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.rdf4j/rdf4j-repository-dataset/jars/rdf4j-repository-dataset-2.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.rdf4j/rdf4j-repository-dataset/srcs/rdf4j-repository-dataset-2.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

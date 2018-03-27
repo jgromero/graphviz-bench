@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.xmlgraphics:batik-dom:1.9.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.xmlgraphics/batik-dom/jars/batik-dom-1.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.xmlgraphics/batik-dom/srcs/batik-dom-1.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

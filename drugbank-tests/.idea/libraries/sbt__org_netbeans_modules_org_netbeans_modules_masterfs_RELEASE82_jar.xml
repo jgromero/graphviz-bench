@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.netbeans.modules:org-netbeans-modules-masterfs:RELEASE82:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.netbeans.modules/org-netbeans-modules-masterfs/jars/org-netbeans-modules-masterfs-RELEASE82.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.netbeans.modules/org-netbeans-modules-masterfs/srcs/org-netbeans-modules-masterfs-RELEASE82-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

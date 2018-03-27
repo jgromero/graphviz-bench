@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="graph-benchmark">
+    <output-path>$PROJECT_DIR$/out/artifacts/graph_benchmark</output-path>
+    <root id="archive" name="graph-benchmark.jar">
+      <element id="module-output" name="graph-benchmark" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.netbeans.api:org-openide-explorer:RELEASE82:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.netbeans.api/org-openide-explorer/jars/org-openide-explorer-RELEASE82.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.netbeans.api/org-openide-explorer/srcs/org-openide-explorer-RELEASE82-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

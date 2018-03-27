@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.netbeans.api:org-netbeans-api-progress:RELEASE82:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.netbeans.api/org-netbeans-api-progress/jars/org-netbeans-api-progress-RELEASE82.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.netbeans.api/org-netbeans-api-progress/srcs/org-netbeans-api-progress-RELEASE82-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,4 @@
+sbt package
+vertices
+sbt build
+sbt compile

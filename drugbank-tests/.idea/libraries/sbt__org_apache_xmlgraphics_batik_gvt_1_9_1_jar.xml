@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.xmlgraphics:batik-gvt:1.9.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.xmlgraphics/batik-gvt/jars/batik-gvt-1.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.xmlgraphics/batik-gvt/srcs/batik-gvt-1.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

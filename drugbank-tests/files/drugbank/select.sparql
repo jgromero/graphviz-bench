@@ -1,0 +1,14 @@
+prefix drugbank: <http://bio2rdf.org/drugbank_vocabulary:>
+prefix graphdl:  <http://ugritlab.ugr.es/graphdl#>
+prefix dcterms:  <http://purl.org/dc/terms/>
+
+select distinct ?d1 ?d1_name ?d2 ?d2_name ?i where {
+  ?d1 drugbank:ddi-interactor-in ?i ;
+    dcterms:title ?d1_name  ;
+    a drugbank:Drug .
+  ?d2 drugbank:ddi-interactor-in ?i ;
+    dcterms:title ?d2_name ;
+    a drugbank:Drug .
+
+  filter(str(?d1) != str(?d2)) .
+} DRUG_ORDER_CLAUSE DRUG_LIMIT_CLAUSE

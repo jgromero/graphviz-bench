@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: net.objecthunter:exp4j:0.4.8:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.objecthunter/exp4j/jars/exp4j-0.4.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.objecthunter/exp4j/srcs/exp4j-0.4.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

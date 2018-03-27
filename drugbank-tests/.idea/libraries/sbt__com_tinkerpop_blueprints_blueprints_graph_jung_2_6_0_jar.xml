@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.tinkerpop.blueprints:blueprints-graph-jung:2.6.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.tinkerpop.blueprints/blueprints-graph-jung/jars/blueprints-graph-jung-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.tinkerpop.blueprints/blueprints-graph-jung/srcs/blueprints-graph-jung-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

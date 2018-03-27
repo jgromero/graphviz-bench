@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.netbeans.api:org-netbeans-swing-outline:RELEASE82:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.netbeans.api/org-netbeans-swing-outline/jars/org-netbeans-swing-outline-RELEASE82.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.netbeans.api/org-netbeans-swing-outline/srcs/org-netbeans-swing-outline-RELEASE82-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

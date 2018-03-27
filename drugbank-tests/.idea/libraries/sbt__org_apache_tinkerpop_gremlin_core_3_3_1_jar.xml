@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.tinkerpop:gremlin-core:3.3.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.tinkerpop/gremlin-core/jars/gremlin-core-3.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.tinkerpop/gremlin-core/srcs/gremlin-core-3.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
