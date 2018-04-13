@@ -4,7 +4,7 @@
 		module="graph-benchmark-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180313194929"
+		publication="20180413120839"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

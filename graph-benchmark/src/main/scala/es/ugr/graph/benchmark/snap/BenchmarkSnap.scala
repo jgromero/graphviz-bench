@@ -7,17 +7,33 @@ import com.univocity.parsers.csv.{CsvWriter, CsvWriterSettings}
 import es.ugr.graph.graphx.{FruchtermanReingoldLayout, GraphUtilities}
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileSystem, LocatedFileStatus, Path, RemoteIterator}
-import org.apache.hadoop.hdfs.DistributedFileSystem
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark._
 
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 
+/** Main object to run SNAP dataset performance tests.
+  *
+  * <p>Generates a performance statistics file in ./files/snap/results/[ID]/[ID]_results.csv.</p>
+  *
+  * <p>Input graphs with .txt extension should be located in the HDFS tree starting at folder [[BenchmarkSnap.rootFolderName]].</p>
+  *
+  * @author Juan Gómez-Romero
+  * @version 0.2
+  */
 object BenchmarkSnap {
+
+  var rootFolderName: String = "hdfs:///"   // set root folder name
+  val checkpoint_dir: String = "hdfs:///."  // set checkpoint dir
+  val layout_iterations: Integer = 50       // set number of layout iterations
+
+  var start_w = 200   // initial canvas width
+  var start_h = 200   // initial canvas height
+  var end_w   = 2000  // final canvas width
+  var end_h   = 2000  // final canvas height
 
   def main(args: Array[String]) {
     val ID : String = Instant.now.toEpochMilli.toString
-    val layout_iterations = 50
 
     // Configure Spark environment
     val conf = new SparkConf().setAppName("Layout Graph")//.setMaster("local[*]")
@@ -27,17 +43,17 @@ object BenchmarkSnap {
     val rootLogger = Logger.getRootLogger
     rootLogger.setLevel(Level.WARN)
 
-    val checkpoint_dir = "hdfs:///user/miguel/checkpoint"
-    // val checkpoint_dir = "files/checkpoint"
     sc.setCheckpointDir(checkpoint_dir)
 
+    /* Neighborhood size parameter is accepted, but should not be used until the algorithm to compute a vertex
+       local neighborhood [[FruchtermanReingoldLayout.getNeighbourhood]] is improved */
+    // @todo Improve neighborhood calculation algorithm
     var neigh_size = 0
     if(args.length == 1) {
       neigh_size = args(0).toInt
     }
 
     // Run benchmark
-    var rootFolderName : String = "hdfs:///user/miguel/files/graphs/snap"
     val stats_file : String = "files/snap/results/" + ID + "/" + ID + "_results.csv"
     val writer_head : CsvWriter = new CsvWriter(new File(stats_file), new CsvWriterSettings())
     writer_head.writeHeaders("category", "input.graph.file.name", "size", "number.of.vertices", "number.of.edges", "density", "load.time", "pagerank.time", "triangle.time", "neigh_size", "layout.time", "layout.t_repulsion", "layout.t_attraction",  "output.graph.file.name", "full.time")
@@ -88,7 +104,7 @@ object BenchmarkSnap {
 
       // 4. Graph layout
       val ts_layout_a = Instant.now.toEpochMilli
-      val (graph_layout_all, t_rep_all, t_att_all)   = FruchtermanReingoldLayout.layout(graph, 200, 200, 2000, 2000, layout_iterations, neigh_size, sc)
+      val (graph_layout_all, t_rep_all, t_att_all)   = FruchtermanReingoldLayout.layout(graph, start_w, start_h, end_w, end_h, layout_iterations, neigh_size, sc)
       graph_layout_all.edges.foreach { case _ =>  }  // materialize DAG, just in case
       val te_layout_a = Instant.now.toEpochMilli
       stats += neigh_size.toString
@@ -99,7 +115,7 @@ object BenchmarkSnap {
       // Save graph to file
       new File("files/snap/graphs/output/" + ID).mkdir()
       val output_file = "files/snap/graphs/output/" + ID + "/" + file.getPath.getName + "_ALL"
-      // GraphUtilities.saveToCSVFile(graph_layout_all, output_file_1 + "_nodes", output_file_1 + "_edges", sc)
+      // GraphUtilities.saveToCSVFile(graph_layout_all, output_file_1 + "_nodes", output_file_1 + "_edges", sc)  // uncomment to save output graph to .csv edges file; alternatively, use saveToJsonFile
       stats += output_file
 
       val te_fulltime = Instant.now.toEpochMilli

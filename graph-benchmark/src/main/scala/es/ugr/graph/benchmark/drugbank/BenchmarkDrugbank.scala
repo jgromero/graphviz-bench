@@ -12,22 +12,38 @@ import org.apache.spark._
 
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 
+/** Main object to run DrugBank performance tests.
+  *
+  * <p>Generates a performance statistics file in ./files/drugbank/results/[ID]/[ID]_results.csv.</p>
+  *
+  * <p>Input graphs with .txt extension should be located in the HDFS tree starting at folder [[BenchmarkDrugbank.rootFolderName]].
+  * Graphs can directly be generated from SPARQL queries, see [[https://github.com/jgromero/graphviz-bench/tree/master/drugbank-tests]].</p>
+  *
+  * @author Juan Gómez-Romero
+  * @version 0.2
+  */
 object BenchmarkDrugbank {
+
+  var rootFolderName: String = "hdfs:///"   // set root folder name
+  val checkpoint_dir: String = "hdfs:///."  // set checkpoint dir
+  val layout_iterations: Integer = 50       // set number of layout iterations
+
+  var start_w = 200   // initial canvas width
+  var start_h = 200   // initial canvas height
+  var end_w   = 2000  // final canvas width
+  var end_h   = 2000  // final canvas height
 
   def main(args: Array[String]) {
     val ID: String = Instant.now.toEpochMilli.toString
-    val layout_iterations = 50
 
     // Configure Spark environment
-    val conf = new SparkConf().setAppName("Layout Graph") //.setMaster("local[*]")
+    val conf = new SparkConf().setAppName("DBPedia Benchmark") //.setMaster("local[*]")
       .set("spark.default.parallelism", "8")
       .set("spark.driver.maxResultSize", "3g")
     val sc = new SparkContext(conf)
     val rootLogger = Logger.getRootLogger
     rootLogger.setLevel(Level.WARN)
 
-    val checkpoint_dir = "hdfs:///user/miguel/checkpoint"
-    // val checkpoint_dir = "files/checkpoint"
     sc.setCheckpointDir(checkpoint_dir)
 
     var allExecutors = sc.getExecutorMemoryStatus.map(_._1)
@@ -35,14 +51,15 @@ object BenchmarkDrugbank {
     allExecutors = allExecutors.filter(! _.split(":")(0).equals(driverHost)).toList
     val nExecutors = allExecutors.size
 
+    /* Neighborhood size parameter is accepted, but should not be used until the algorithm to compute a vertex
+       local neighborhood [[FruchtermanReingoldLayout.getNeighbourhood]] is improved */
+    // @todo Improve neighborhood calculation algorithm
     var neigh_size = 0
     if (args.length == 1) {
       neigh_size = args(0).toInt
     }
 
     // Run benchmark
-    var rootFolderName: String = "hdfs:///user/miguel/files/graphs/drugbank"
-
     val stats_file: String = "files/drugbank/results/" + ID + "/" + ID + "_results.csv"
     val writer_head: CsvWriter = new CsvWriter(new File(stats_file), new CsvWriterSettings())
     writer_head.writeHeaders("input.graph.file.name", "limit", "n.executors", "size", "number.of.vertices", "number.of.edges", "density", "load.time", "pagerank.time", "triangle.time", "neigh_size", "layout.time", "layout.t_repulsion", "layout.t_attraction", "output.graph.file.name", "full.time")
@@ -95,7 +112,7 @@ object BenchmarkDrugbank {
 
       // 4. Graph layout
       val ts_layout_a = Instant.now.toEpochMilli
-      val (graph_layout_all, t_rep_all, t_att_all) = FruchtermanReingoldLayout.layout(graph, 200, 200, 2000, 2000, layout_iterations, neigh_size, sc)
+      val (graph_layout_all, t_rep_all, t_att_all) = FruchtermanReingoldLayout.layout(graph, start_w, start_h, end_w, end_h, layout_iterations, neigh_size, sc)
       graph_layout_all.edges.foreach { case _ =>  }  // materialize DAG, just in case
       val te_layout_a = Instant.now.toEpochMilli
       stats += neigh_size.toString
@@ -106,7 +123,7 @@ object BenchmarkDrugbank {
       // Save graph to file
       new File("files/snap/graphs/output/" + ID).mkdir()
       val output_file = "files/snap/graphs/output/" + ID + "/" + file.getPath.getName + "_ALL"
-      // GraphUtilities.saveToCSVFile(graph_layout_all, output_file_1 + "_nodes", output_file_1 + "_edges", sc)
+      // GraphUtilities.saveToCSVFile(graph_layout_all, output_file_1 + "_nodes", output_file_1 + "_edges", sc) // uncomment to save output graph to .csv edges file; alternatively, use saveToJsonFile
       stats += output_file
 
       val te_fulltime = Instant.now.toEpochMilli
@@ -119,8 +136,6 @@ object BenchmarkDrugbank {
   }
 
   def recursiveListFiles(f: Path): List[LocatedFileStatus] = {
-    //val these = f.listFiles
-    //these ++ these.filter(_.isDirectory).flatMap(recursiveListFiles)
     val fs = FileSystem.get(new Configuration())
     val files: RemoteIterator[LocatedFileStatus] = fs.listFiles(f, true)
     var r = new ListBuffer[LocatedFileStatus]()

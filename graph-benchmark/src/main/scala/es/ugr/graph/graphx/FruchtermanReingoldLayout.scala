@@ -6,7 +6,10 @@ import org.apache.spark.SparkContext
 import org.apache.spark.graphx._
 import org.apache.spark.rdd.RDD
 
-/** Functions for Fruchterman and Reingold layout management */
+/** Functions for Fruchterman and Reingold layout management
+  * @author Juan Gómez-Romero
+  * @version 0.2
+  */
 object FruchtermanReingoldLayout {
 
   val epsilon: Double = 0.0001D
@@ -24,8 +27,11 @@ object FruchtermanReingoldLayout {
   def truncateAt(n: Double, p: Int): Double = { val s = math pow (10, p); (math floor n * s) / s }
 
   /**
-    * Converts a Graph[Int, Int] into a Graph with position info, where:
-    * Graph[ (id: String, (x: Double, y: Double) ), String ]
+    * Converts a {{{Graph[Int, Int]}}} into a Graph with position info such as:
+    * {{{Graph[ (id: String, (x: Double, y: Double) ), String ]}}}
+
+    * <p>Position is randomly assigned</p>
+    *
     *  @param g Source graph, vertices and edges are integers
     *  @return  A graph with additional attributes for positioning
     */
@@ -89,7 +95,7 @@ object FruchtermanReingoldLayout {
     out
   }
 
-  /** Calculates repulsion force between node1 and node2
+  /** Calculates repulsion force between node1 at pos1 and node2 at pos2
     * @param pos1 Position node 1
     * @param pos2 Position node 2
     * @return (dx, dy) values resulting from repulsion displacement */
@@ -107,7 +113,7 @@ object FruchtermanReingoldLayout {
     (disp.x, disp.y)
   }
 
-  /** Calculates attraction force between node1 and node2
+  /** Calculates attraction force between node1 at pos1 and node2 at pos2
     * @param pos1 Position node 1
     * @param pos2 Position node 2
     * @return (dx, dy) values resulting from attraction displacement */
@@ -125,7 +131,7 @@ object FruchtermanReingoldLayout {
     (disp.x, disp.y)
   }
 
-  /** Calculates inverted attraction force between positions mp._1 and mp._2
+  /** Calculates inverted attraction force between node1 at pos1 and node2 at pos2
     * @param pos1 Position node 1
     * @param pos2 Position node 2
     * @return (dx, dy) values resulting from inverted attraction displacement */
@@ -142,10 +148,10 @@ object FruchtermanReingoldLayout {
     (disp.x, disp.y)
   }
 
-  /** Calculate repulsion forces for graph vertices (only for local neighbourhood of size s)
+  /** Calculate repulsion forces for all graph vertices (only for local neighbourhood of size nb)
     * @param g Graph
     * @param nb Neighbourhood size
-    * @return Disp after calculating repulsion forces
+    * @return Disp after calculating repulsion forces for each vertex
     */
   def calcRepulsionLocal(g: Graph[(String, Double, Double), String], nb: Int, sc: SparkContext): RDD[(VertexId, (Double, Double))] = {
 
@@ -183,6 +189,13 @@ object FruchtermanReingoldLayout {
     disp
   }
 
+  /** Calculate neighborhood for each graph vertex)
+    *
+    * <p>Do not use, implementation should be improved. </p>
+    * @param g Graph
+    * @param nb Neighbourhood size
+    * @return RDD with vertex -- set of neighbors
+    */
   def getNeighbourhood(g: Graph[ (String, Double, Double), String ], nb : Int) : RDD[(VertexId, Set[VertexId])] = {
 
     if(neighbourhood_global == null) {
@@ -211,7 +224,7 @@ object FruchtermanReingoldLayout {
     neighbourhood_global
   }
 
-  /** Calculate repulsion forces for graph vertices (all vertices)
+  /** Calculate repulsion forces for all graph vertices
     * @param g Original graph
     * @return Disp after calculating repulsion forces
     */
@@ -235,9 +248,9 @@ object FruchtermanReingoldLayout {
     disp
   }
 
-  /** Calculate attraction forces for graph edges
+  /** Calculate attraction forces for all graph edges
     * @param g Graph
-    * @return Graph after updating attraction forces
+    * @return Disp values for vertices after calculating edge attraction
     */
   def calcAttractionAll( g: Graph[ (String, Double, Double), String ]) : RDD[(VertexId, (Double, Double))]  = {
 
@@ -295,6 +308,7 @@ object FruchtermanReingoldLayout {
     * @param vertices Vertices
     * @param disp_repulsion Repulsion disp values
     * @param disp_attraction Attraction disp values
+    *  @param temperature Algorithm temperature value
     * @return New vertices positions */
   def updateAll(vertices : RDD[(VertexId, (String, Double, Double))], disp_repulsion: RDD[(VertexId, (Double, Double))], disp_attraction: RDD[(VertexId, (Double, Double))], temperature : Double) : RDD[ (VertexId, (String, Double, Double)) ]= {
 
@@ -316,19 +330,21 @@ object FruchtermanReingoldLayout {
     verticesUpdated
   }
 
-  /** Perform complete FDFR layout from basic graph
+  /** Perform complete Fruchterman-Reingold layout to basic graph.
     *
     * @param initg Simple graph [int, int] to apply layout
     * @param initial_width Width for initial random layout
     * @param initial_height Height for initial random layout
+    * @param canvas_width Width for final canvas
+    * @param canvas_height Height for final canvas
     * @param iterations Max number of iterations
-    * @param neighbourhoodSize Size of neighbourhood to compute repulsion forces (0 for no neighbourhood)
+    * @param neighbourhoodSize Size of neighbourhood to compute repulsion forces (0 for global neighborhood)
     * @param sc SparkContext for processing
     * @return Graph with position info, additional info shall be 0.0
-    *           Graph[ (String, Double, Double)
+    *           {{{Graph[ (String, Double, Double)
     *           String: Vertex id
     *           Double: Position X
-    *           Double: Position Y
+    *           Double: Position Y}}}
     *         Time spent in the calculation of the repulsion and attraction forces
     */
 

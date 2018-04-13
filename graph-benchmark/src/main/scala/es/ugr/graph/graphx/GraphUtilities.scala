@@ -12,16 +12,23 @@ import org.json4s.jackson.JsonMethods._
 
 import scala.util.Try
 
-
+/** Graph performance evaluation utilities.
+  *
+  * @author Juan Gómez-Romero
+  * @version 0.2
+  */
 object GraphUtilities {
 
   /** Generate a random GraphX graph, with nodes and edges represented as integers by using
-    * https://en.wikipedia.org/wiki/Erdős–Rényi_model
+    * [[https://en.wikipedia.org/wiki/Erdős–Rényi_model]]
+    *
     * @param fileName Name of the output file -- list of edges as pairs of integers. If null, no file is generated
     * @param v Number of vertices
     * @param p Probability that two vertices are connected [0, 1]
     * @param sc Spark context
-    * @return GraphX graph */
+    *
+    * @return GraphX graph
+    */
   def generateRandomGraph(fileName : String = null, v : Int, p : Double, sc : SparkContext): Graph[Int, Int] = {
 
     val random = new scala.util.Random(1)
@@ -49,11 +56,12 @@ object GraphUtilities {
     graph
   }
 
-  /** Save to .csv file to be imported by Gephi (partitioned for Hadoop)
+  /** Save to .csv file to be imported by Gephi (partitioned for Hadoop, no attribute data)
     * @param g Graph to save
     * @param verticesFn Vertices file name
     * @param edgesFn Edges file name
-    * @param sc SparkContext to serialize file headers */
+    * @param sc SparkContext to serialize file headers
+    */
   def saveToCSVFile( g: Graph[ (String, Double, Double), String ],
                      verticesFn: String,
                      edgesFn : String ,
@@ -102,9 +110,7 @@ object GraphUtilities {
 
   }
 
-
-
-  /** Save to .json file to be imported by Sigma.js
+  /** Save to .json file to be imported by Sigma.js (local file system)
     * @param g Graph to save
     * @param jsonFn JSON file name
     */
@@ -143,8 +149,8 @@ object GraphUtilities {
   }
 
 
-  /** Load graph from file
-    * @param file File name -- file must be in this format https://spark.apache.org/docs/latest/graphx-programming-guide.html#graph-builders
+  /** Load graph from local plain file
+    * @param file File name -- file must be in this format [[https://spark.apache.org/docs/latest/graphx-programming-guide.html#graph-builders]]
     * @param sc SparkContext
     * @return Graph */
   def loadFromPlainFile( file : String , sc : SparkContext): Graph[Int, Int] = {

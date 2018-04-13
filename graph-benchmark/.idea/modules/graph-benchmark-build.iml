@@ -98,5 +98,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="org.typelevel:scaladoc:2.11.7" level="project" />
   </component>
 </module>

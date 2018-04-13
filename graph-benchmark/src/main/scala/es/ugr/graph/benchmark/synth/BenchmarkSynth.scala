@@ -11,11 +11,35 @@ import org.apache.spark.util.SizeEstimator
 
 import scala.collection.mutable.{ArrayBuffer}
 
+/** Main object to run SNAP dataset performance tests.
+  *
+  * <p>Generates a performance statistics file in ./files/snap/results/[ID]/[ID]_results.csv.</p>
+  *
+  * <p>Output graphs can be saved at ./files/synth/graphs/output/graph_ALL_nodes=[#vertices]_p=[#probability]"</p>
+  *
+  * <p>Graph sizes to be tested can be passed as a parameter in the format:
+  * [#vertices initial] [#vertices end] [#vertices increment] [neigh size (should be 0]. If not
+  * specified, the values are: 500, 2000, 5000, 0</p>
+  *
+  * <p>Probabilities are fixed to values: 0.001, 0.005, 0.01, 0.05, 0.1, 0.2</p>
+  *
+  * @author Juan Gómez-Romero
+  * @version 0.2
+  */
+
 object BenchmarkSynth {
+
+  var rootFolderName: String = "hdfs:///"   // set root folder name
+  val checkpoint_dir: String = "hdfs:///."  // set checkpoint dir
+  val layout_iterations: Integer = 50       // set number of layout iterations
+
+  var start_w = 200   // initial canvas width
+  var start_h = 200   // initial canvas height
+  var end_w   = 2000  // final canvas width
+  var end_h   = 2000  // final canvas height
 
   def main(args: Array[String]) {
     val ID : String = Instant.now.toEpochMilli.toString
-    val layout_iterations = 50
 
     // Configure Spark environment
     val conf = new SparkConf().setAppName("Layout Graph")//.setMaster("local[*]")
@@ -24,22 +48,22 @@ object BenchmarkSynth {
     val sc = new SparkContext(conf)
 
     // Spark parameters
-    //val checkpoint_dir = "hdfs:///user/miguel/checkpoint"
-    val checkpoint_dir = "checkpoint"
     sc.setCheckpointDir(checkpoint_dir)
 
     val rootLogger = Logger.getRootLogger
     rootLogger.setLevel(Level.WARN)
 
-    // Run benchmark
+    // Run benchmark (set sequence)
     var (init_nodes, end_nodes, by_nodes, neigh_size) = (500, 2000, 500, 0)
     if(args.length == 4) {
       init_nodes = args(0).toInt
       end_nodes  = args(1).toInt
       by_nodes   = args(2).toInt
+
+      // @todo Improve neighborhood calculation algorithm
       neigh_size = args(3).toInt
     }
-    val nodes = init_nodes to end_nodes by by_nodes // Seq(100, 500, 200, 300, 400, 500, 800, 1000, 5000, 10000, 20000, 30000, 50000, 75000, 100000)
+    val nodes = init_nodes to end_nodes by by_nodes
     val probs = Seq(0.001, 0.005, 0.01, 0.05, 0.1, 0.2)
 
     val stats_file : String = "files/synth/results/" + ID + "/" + ID + "_results.csv"
@@ -66,6 +90,8 @@ object BenchmarkSynth {
         val te_generate = Instant.now.toEpochMilli
 
         rootLogger.info("\tgraph v="+ graph.numVertices + ", e=" + graph.numEdges)
+
+        // Uncomment to write synthetic graph in a text file
         // new PrintWriter(input_file_name) {write("#Source Target\n" + graph.edges.map(e => e.srcId + " " + e.dstId).collect().mkString("\n")); close }
         // val file = new File(input_file_name)
 
@@ -92,7 +118,7 @@ object BenchmarkSynth {
         // 4. Graph layout
         // neigh_size == 0 is the full graph
         val ts_layout = Instant.now.toEpochMilli
-        val (graph_layout, t_rep_all, t_att_all)   = FruchtermanReingoldLayout.layout(graph, 200, 200, 2000, 2000, layout_iterations, neigh_size, sc)
+        val (graph_layout, t_rep_all, t_att_all)   = FruchtermanReingoldLayout.layout(graph, start_w, start_h, end_w, end_h, layout_iterations, neigh_size, sc)
         graph_layout.edges.foreach { case _ =>  }  // materialize DAG, just in case
         val te_layout = Instant.now.toEpochMilli
         stats += neigh_size.toString
@@ -100,10 +126,10 @@ object BenchmarkSynth {
         stats += t_rep_all.toString
         stats += t_att_all.toString
 
-        // Save graph to file
+        // Save graph with layout to file
         new File("files/synth/graphs/output/" + ID).mkdir()
         val output_file = "files/synth/graphs/output/" + ID + "/graph_ALL_nodes=" + n.formatted("%08d") + "_p=" + p.formatted("%1.3f")
-        // GraphUtilities.saveToCSVFile(graph_layout_all, output_file_1 + "_nodes", output_file_1 + "_edges", sc)
+        // GraphUtilities.saveToCSVFile(graph_layout_all, output_file_1 + "_nodes", output_file_1 + "_edges", sc)  // uncomment to save output graph to .csv edges file; alternatively, use saveToJsonFile
         stats += output_file
 
         val te_fulltime = Instant.now.toEpochMilli
