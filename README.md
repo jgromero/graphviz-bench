@@ -25,6 +25,6 @@ The implementation includes tests with four datasets:
 4. _SNAP_: Graphs from the [Stanford Network Analysis Platform dataset](http://snap.stanford.edu) 
 
 
-We also include a [reference implementation(https://github.com/jgromero/graphviz-bench/tree/master/drugbank-tests)] in sequential Java 8 based on [Gephi](https://gephi.org), [Jung](https://github.com/jrtom/jung) and [TinkerPop](http://tinkerpop.apache.org). 
+We also include a [reference implementation](https://github.com/jgromero/graphviz-bench/tree/master/drugbank-tests) in sequential Java 8 based on [Gephi](https://gephi.org), [Jung](https://github.com/jrtom/jung) and [TinkerPop](http://tinkerpop.apache.org). 
 
 > This work has been developed within the [BIGFUSE](http://decsai.ugr.es~jgomez/bigfuse) project, and funded by the University of Granada and the Spanish Ministry of Education, Culture and Sport.
