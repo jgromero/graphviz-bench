@@ -1,8 +1,3 @@
-/**
- * Created by jgomez on 17/01/18.
- * Conversion from GraphDL triples to TinkerGraph.
- */
-
 package es.ugr.ugritlab.es.ugr.ugritlab.graphs.rdf;
 
 import com.google.common.collect.*;
@@ -17,6 +12,13 @@ import org.eclipse.rdf4j.query.GraphQueryResult;
 import org.eclipse.rdf4j.query.QueryEvaluationException;
 
 import java.util.*;
+
+/**
+ * Conversion from GraphDL triples to TinkerGraph.
+ *
+ * @author Juan Gomez Romero
+ * @version 0.2
+ */
 
 public class RDFGraphDL {
 
@@ -91,8 +93,8 @@ public class RDFGraphDL {
     }
 
     /** Load data from query result
-     *  @param r Query result model. Should include triples defining nodes, edges, etc. using the GraphDL ontology
-     *           at http://ugritlab.ugr.es/graphdl# **/
+     *  @param r Query result model. Should include triples defining nodes, edges, etc. using the
+     *           <a href="https://github.com/jgromero/graphdl">GraphDL</a> ontology **/
     public void load(Model r) throws QueryEvaluationException {
 
         /* Parse triple result into a TinkerGraph */
@@ -216,7 +218,7 @@ public class RDFGraphDL {
 
     }
 
-    /** Clean GraphML <--> GraphDL tags */
+    /** Clean GraphML, GraphDL tags */
     public void cleanForGraphML() {
         final Iterator<Vertex> vertexIterator = graph.vertices();
         while(vertexIterator.hasNext()) {
@@ -257,6 +259,4 @@ public class RDFGraphDL {
     public int getNodeCount() { return this.nodeCount; }
 
     public int getEdgeCount() { return this.edgeCount; }
-
-
 }

@@ -4,7 +4,7 @@
 		module="drugbank-tests$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180304165530"
+		publication="20180413105335"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

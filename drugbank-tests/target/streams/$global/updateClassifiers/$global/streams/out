@@ -26285,253 +26285,21 @@
 [debug] == resolving dependencies default#drugbank-tests$sources;0.1->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-modules-keyring;RELEASE82!org-netbeans-modules-keyring.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-inferencer;2.2.4!rdf4j-sail-inferencer.jar(src)
-[debug] 	[NOT REQUIRED] concurrent#concurrent;1.3.4!concurrent.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-rdfjson;2.2.4!rdf4j-rio-rdfjson.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-util-ui;RELEASE82!org-openide-util-ui.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-awt-util;1.9.1!batik-awt-util.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore-nio;4.4.6!httpcore-nio.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-n3;2.2.4!rdf4j-rio-n3.jar(src)
-[debug] settings loaded (4ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.google.guava#guava;19.0!guava.jar(src)
-[debug] settings loaded (4ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-ext;1.9.1!batik-ext.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-text;2.2.4!rdf4j-queryresultio-text.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-intent;RELEASE82!org-netbeans-api-intent.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient-cache;4.5.3!httpclient-cache.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#preview-plugin;0.9.2!preview-plugin.jar(src)
-[debug] 	[NOT REQUIRED] org.javatuples#javatuples;1.2!javatuples.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] com.jcabi#jcabi-log;0.14!jcabi-log.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-sparql;2.2.4!rdf4j-repository-sparql.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.gephi#utils;0.9.2!utils.jar(src)
-[debug] settings loaded (4ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-model;2.2.4!rdf4j-model.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (4ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (5ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (5ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.apache.tinkerpop#gremlin-shaded;3.3.1!gremlin-shaded.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (6ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (11ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (9ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] com.google.collections#google-collections;1.0!google-collections.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.14!commons-compress.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#layout-api;0.9.2!layout-api.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore-osgi;4.4.6!httpcore-osgi.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)
-[debug] settings loaded (4ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-nativerdf;2.2.4!rdf4j-sail-nativerdf.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] settings loaded (18ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.jfree#jfreechart;1.0.19!jfreechart.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryalgebra-model;2.2.4!rdf4j-queryalgebra-model.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-api;2.2.4!rdf4j-sail-api.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-lucene-api;2.2.4!rdf4j-sail-lucene-api.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-spin;2.2.4!rdf4j-spin.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-core-startup-base;RELEASE82!org-netbeans-core-startup-base.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-core-startup;RELEASE82!org-netbeans-core-startup.jar(src)
-[debug] 	[NOT REQUIRED] com.tinkerpop.blueprints#blueprints-core;2.6.0!blueprints-core.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-modules-queries;RELEASE82!org-netbeans-modules-queries.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-sparqlxml;2.2.4!rdf4j-queryresultio-sparqlxml.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-manager;2.2.4!rdf4j-repository-manager.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-gvt;1.9.1!batik-gvt.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.gephi#io-importer-api;0.9.2!io-importer-api.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryparser-sparql;2.2.4!rdf4j-queryparser-sparql.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-dataset;2.2.4!rdf4j-repository-dataset.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] net.sf.jung#jung-algorithms;2.1.1!jung-algorithms.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-inferencer;2.2.4!rdf4j-sail-inferencer.jar(src)
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] settings loaded (4ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
@@ -26541,103 +26309,12 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-queries;5.2.1!lucene-queries.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-io;RELEASE82!org-netbeans-api-io.jar(src)
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-lucene;2.2.4!rdf4j-sail-lucene.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.gephi#io-processor-plugin;0.9.2!io-processor-plugin.jar(src)
 [debug] settings loaded (6ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (6ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.gephi#io-exporter-plugin;0.9.2!io-exporter-plugin.jar(src)
-[debug] settings loaded (6ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.gephi#io-generator-plugin;0.9.2!io-generator-plugin.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-http-protocol;2.2.4!rdf4j-http-protocol.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-modules-editor-mimelookup;RELEASE82!org-netbeans-modules-editor-mimelookup.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.10!commons-configuration.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-nodes;RELEASE82!org-openide-nodes.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-api;2.2.4!rdf4j-rio-api.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.poi#poi-ooxml;3.17!poi-ooxml.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-ntriples;2.2.4!rdf4j-rio-ntriples.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.gephi#algorithms-plugin;0.9.2!algorithms-plugin.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.spatial4j#spatial4j;0.4.1!spatial4j.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-turtle;2.2.4!rdf4j-rio-turtle.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-dataset;2.2.4!rdf4j-repository-dataset.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-progress-nb;RELEASE82!org-netbeans-api-progress-nb.jar(src)
-[debug] 	[NOT REQUIRED] com.opencsv#opencsv;3.2!opencsv.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-xml;1.9.1!batik-xml.jar(src)
-[debug] settings loaded (10ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -26647,199 +26324,43 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] 	[NOT REQUIRED] org.apache.tinkerpop#tinkergraph-gremlin;3.3.1!tinkergraph-gremlin.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-templates;RELEASE82!org-netbeans-api-templates.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#layout-plugin;0.9.2!layout-plugin.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-xml;1.9.1!batik-xml.jar(src)
+[debug] 	[NOT REQUIRED] org.javatuples#javatuples;1.2!javatuples.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-binary;2.2.4!rdf4j-rio-binary.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-core;5.2.1!lucene-core.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (8ms)
-[debug] settings loaded (9ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#xmlgraphics-commons;2.2!xmlgraphics-commons.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-all;5.0.1!asm-all.jar(src)
-[debug] settings loaded (12ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (6ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-util;1.9.1!batik-util.jar(src)
-[debug] settings loaded (13ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-progress;RELEASE82!org-netbeans-api-progress.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] settings loaded (17ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-text;RELEASE82!org-openide-text.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-parser;1.9.1!batik-parser.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-model;2.2.4!rdf4j-sail-model.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-anim;1.9.1!batik-anim.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-analyzers-common;5.2.1!lucene-analyzers-common.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#db-drivers;0.9.2!db-drivers.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-join;5.2.1!lucene-join.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.gephi#datalab-api;0.9.2!datalab-api.jar(src)
-[debug] 	[NOT REQUIRED] mysql#mysql-connector-java;6.0.6!mysql-connector-java.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] 	[NOT REQUIRED] com.squareup#javapoet;1.8.0!javapoet.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (15ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-spin;2.2.4!rdf4j-sail-spin.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-script;1.9.1!batik-script.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-swing-tabcontrol;RELEASE82!org-netbeans-swing-tabcontrol.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-modules-queries;RELEASE82!org-netbeans-modules-queries.jar(src)
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.gephi#io-importer-plugin;0.9.2!io-importer-plugin.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryalgebra-evaluation;2.2.4!rdf4j-queryalgebra-evaluation.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-loaders;RELEASE82!org-openide-loaders.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;19.0!guava.jar(src)
 [debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.gephi#mostrecentfiles-api;0.9.2!mostrecentfiles-api.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.gephi#filters-api;0.9.2!filters-api.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#ui-propertyeditor;0.9.2!ui-propertyeditor.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-constants;1.9.1!batik-constants.jar(src)
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-sail;2.2.4!rdf4j-repository-sail.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-actions;RELEASE82!org-openide-actions.jar(src)
-[debug] 	[NOT REQUIRED] org.xerial#sqlite-jdbc;3.20.0!sqlite-jdbc.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.tinkerpop#gremlin-core;3.3.1!gremlin-core.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.carrotsearch#hppc;0.7.1!hppc.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-io;RELEASE82!org-openide-io.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-css;1.9.1!batik-css.jar(src)
-[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-event;2.2.4!rdf4j-repository-event.jar(src)
-[debug] settings loaded (15ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-http;2.2.4!rdf4j-repository-http.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default ivy user dir defined: set to /Users/juan/.ivy2
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (6ms)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] settings loaded (3ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
+[debug] 	[NOT REQUIRED] com.google.collections#google-collections;1.0!google-collections.jar(src)
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-highlighter;5.2.1!lucene-highlighter.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-core;RELEASE82!org-netbeans-core.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-util;RELEASE82!org-openide-util.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] no default cache defined: set to /Users/juan/.ivy2/cache
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (7ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-dialogs;RELEASE82!org-openide-dialogs.jar(src)
 [debug] settings loaded (4ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
@@ -26849,7 +26370,80 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-spin;2.2.4!rdf4j-spin.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (4ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (5ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-core;5.2.1!lucene-core.jar(src)
+[debug] 	[NOT REQUIRED] com.tinkerpop.blueprints#blueprints-core;2.6.0!blueprints-core.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-datatypes;2.2.4!rdf4j-rio-datatypes.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-windows;RELEASE82!org-openide-windows.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-libs-asm;RELEASE82!org-netbeans-libs-asm.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-binary;2.2.4!rdf4j-queryresultio-binary.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryparser-serql;2.2.4!rdf4j-queryparser-serql.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-http;2.2.4!rdf4j-repository-http.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.gephi#statistics-api;0.9.2!statistics-api.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-transcoder;1.9.1!batik-transcoder.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-filesystems;RELEASE82!org-openide-filesystems.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (3ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient-osgi;4.5.3!httpclient-osgi.jar(src)
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] settings loaded (7ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
@@ -26859,25 +26453,277 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#filters-impl;0.9.2!filters-impl.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#visualization-api;0.9.2!visualization-api.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#io-exporter-api;0.9.2!io-exporter-api.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#statistics-api;0.9.2!statistics-api.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (10ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-sparql;2.2.4!rdf4j-repository-sparql.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /Users/juan/.ivy2/cache
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (11ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (3ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.gephi#io-exporter-preview;0.9.2!io-exporter-preview.jar(src)
+[debug] 	[NOT REQUIRED] com.tinkerpop.blueprints#blueprints-graph-jung;2.6.0!blueprints-graph-jung.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-model;2.2.4!rdf4j-model.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-svggen;1.9.1!batik-svggen.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryparser-api;2.2.4!rdf4j-queryparser-api.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-rdfxml;2.2.4!rdf4j-rio-rdfxml.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-memory;2.2.4!rdf4j-sail-memory.jar(src)
+[debug] 	[NOT REQUIRED] com.github.jsonld-java#jsonld-java;0.11.1!jsonld-java.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-i18n;1.9.1!batik-i18n.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#fluent-hc;4.5.3!fluent-hc.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-awt-util;1.9.1!batik-awt-util.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-intent;RELEASE82!org-netbeans-api-intent.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-languages;2.2.4!rdf4j-rio-languages.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-ext;1.9.1!batik-ext.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-gvt;1.9.1!batik-gvt.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-bootstrap;RELEASE82!org-netbeans-bootstrap.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-io;RELEASE82!org-openide-io.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] com.jcabi#jcabi-log;0.14!jcabi-log.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-parser;1.9.1!batik-parser.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-sparqlxml;2.2.4!rdf4j-queryresultio-sparqlxml.jar(src)
+[debug] settings loaded (5ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.gephi#datalab-api;0.9.2!datalab-api.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-lucene-api;2.2.4!rdf4j-sail-lucene-api.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (3ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-script;1.9.1!batik-script.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#utils;0.9.2!utils.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-util-ui;RELEASE82!org-openide-util-ui.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-queries;5.2.1!lucene-queries.jar(src)
+[debug] 	[NOT REQUIRED] org.jfree#jfreechart;1.0.19!jfreechart.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-highlighter;5.2.1!lucene-highlighter.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-join;5.2.1!lucene-join.jar(src)
+[debug] 	[NOT REQUIRED] net.objecthunter#exp4j;0.4.8!exp4j.jar(src)
+[debug] 	[NOT REQUIRED] com.opencsv#opencsv;3.2!opencsv.jar(src)
+[debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.10!commons-configuration.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#io-exporter-plugin;0.9.2!io-exporter-plugin.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.gephi#algorithms-plugin;0.9.2!algorithms-plugin.jar(src)
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] net.sf.trove4j#trove4j;3.0.3!trove4j.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#appearance-plugin;0.9.2!appearance-plugin.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#mostrecentfiles-api;0.9.2!mostrecentfiles-api.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#xmlgraphics-commons;2.2!xmlgraphics-commons.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] org.apache.poi#poi;3.17!poi.jar(src)
+[debug] settings loaded (7ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-http-client;2.2.4!rdf4j-http-client.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-constants;1.9.1!batik-constants.jar(src)
+[debug] 	[NOT REQUIRED] com.microsoft.sqlserver#mssql-jdbc;6.2.1.jre7!mssql-jdbc.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-modules-sampler;RELEASE82!org-netbeans-modules-sampler.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#graph-api;0.9.2!graph-api.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] org.xerial#sqlite-jdbc;3.20.0!sqlite-jdbc.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-contextaware;2.2.4!rdf4j-repository-contextaware.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] org.gephi#io-generator-api;0.9.2!io-generator-api.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore-osgi;4.4.6!httpcore-osgi.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-actions;RELEASE82!org-openide-actions.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#graphstore;0.5.9!graphstore.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-http-protocol;2.2.4!rdf4j-http-protocol.jar(src)
+[debug] 	[NOT REQUIRED] org.mapdb#mapdb;1.0.8!mapdb.jar(src)
+[debug] 	[NOT REQUIRED] net.sf.jung#jung-visualization;2.0.1!jung-visualization.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-lucene;2.2.4!rdf4j-sail-lucene.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-base;2.2.4!rdf4j-sail-base.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /Users/juan/.ivy2/cache
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-progress;RELEASE82!org-netbeans-api-progress.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
+[debug] settings loaded (9ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-turtle;2.2.4!rdf4j-rio-turtle.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.gephi#filters-impl;0.9.2!filters-impl.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-misc;5.2.1!lucene-misc.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.collections#collections-generic;4.01!collections-generic.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-api;2.2.4!rdf4j-rio-api.jar(src)
+[debug] 	[NOT REQUIRED] com.carrotsearch#hppc;0.7.1!hppc.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] org.gephi#project-api;0.9.2!project-api.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (8ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-spatial;5.2.1!lucene-spatial.jar(src)
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	[NOT REQUIRED] org.codehaus.jettison#jettison;1.3.3!jettison.jar(src)
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] com.squareup#javapoet;1.8.0!javapoet.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (5ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] com.github.virtuald#curvesapi;1.04!curvesapi.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-swing-tabcontrol;RELEASE82!org-netbeans-swing-tabcontrol.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-progress-nb;RELEASE82!org-netbeans-api-progress-nb.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-util;2.2.4!rdf4j-util.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-memory;5.2.1!lucene-memory.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.gephi#visualization-api;0.9.2!visualization-api.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-runtime;2.2.4!rdf4j-runtime.jar(src)
+[debug] 	[NOT REQUIRED] org.jfree#jcommon;1.0.23!jcommon.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-templates;RELEASE82!org-netbeans-api-templates.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#statistics-plugin;0.9.2!statistics-plugin.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-swing-outline;RELEASE82!org-netbeans-swing-outline.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-api;2.2.4!rdf4j-queryresultio-api.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] net.sf.jung#jung-api;2.1.1!jung-api.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] settings loaded (10ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
@@ -26889,8 +26735,163 @@
 [debug] 	local [file]
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] com.jcabi#jcabi-manifests;1.1!jcabi-manifests.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-api;2.2.4!rdf4j-sail-api.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient-cache;4.5.3!httpclient-cache.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-text;2.2.4!rdf4j-queryresultio-text.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-modules-masterfs;RELEASE82!org-netbeans-modules-masterfs.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-sparqljson;2.2.4!rdf4j-queryresultio-sparqljson.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#io-generator-plugin;0.9.2!io-generator-plugin.jar(src)
 [debug] no default cache defined: set to /Users/juan/.ivy2/cache
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.14!commons-compress.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.poi#poi-ooxml;3.17!poi-ooxml.jar(src)
+[debug] settings loaded (10ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	[NOT REQUIRED] org.gephi#preview-plugin;0.9.2!preview-plugin.jar(src)
+[debug] 	[NOT REQUIRED] org.postgresql#postgresql;42.1.4.jre7!postgresql.jar(src)
+[debug] 	default [chain] [local, main]
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-csv;1.5!commons-csv.jar(src)
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-jsonld;2.2.4!rdf4j-rio-jsonld.jar(src)
+[debug] 	[NOT REQUIRED] com.spatial4j#spatial4j;0.4.1!spatial4j.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-annotations-common;RELEASE82!org-netbeans-api-annotations-common.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] settings loaded (12ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.6!commons-lang.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (6ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-core-startup;RELEASE82!org-netbeans-core-startup.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-event;2.2.4!rdf4j-repository-event.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-manager;2.2.4!rdf4j-repository-manager.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-core;RELEASE82!org-netbeans-core.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (10ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (10ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-bridge;1.9.1!batik-bridge.jar(src)
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.gephi#layout-plugin;0.9.2!layout-plugin.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-queryparser;5.2.1!lucene-queryparser.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-util;1.9.1!batik-util.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.gephi#filters-plugin;0.9.2!filters-plugin.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] settings loaded (8ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (12ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (12ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (8ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-anim;1.9.1!batik-anim.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-model;2.2.4!rdf4j-sail-model.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-util;RELEASE82!org-openide-util.jar(src)
 [debug] settings loaded (8ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
@@ -26900,213 +26901,124 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.gephi#db-drivers;0.9.2!db-drivers.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#io-exporter-api;0.9.2!io-exporter-api.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-analyzers-common;5.2.1!lucene-analyzers-common.jar(src)
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] concurrent#concurrent;1.3.4!concurrent.jar(src)
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (13ms)
+[debug] settings loaded (5ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
+[debug] 	[NOT REQUIRED] org.gephi#io-importer-plugin;0.9.2!io-importer-plugin.jar(src)
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] mysql#mysql-connector-java;6.0.6!mysql-connector-java.jar(src)
 [debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (11ms)
+[debug] settings loaded (7ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-rdfjson;2.2.4!rdf4j-rio-rdfjson.jar(src)
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (26ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (18ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.gephi#appearance-api;0.9.2!appearance-api.jar(src)
-[debug] 	[NOT REQUIRED] com.univocity#univocity-parsers;2.6.0!univocity-parsers.jar(src)
-[debug] 	[NOT REQUIRED] net.sf.jung#jung-api;2.1.1!jung-api.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-binary;2.2.4!rdf4j-rio-binary.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-memory;2.2.4!rdf4j-sail-memory.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-windows;RELEASE82!org-openide-windows.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#preview-api;0.9.2!preview-api.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient-osgi;4.5.3!httpclient-osgi.jar(src)
-[debug] 	[NOT REQUIRED] com.github.jsonld-java#jsonld-java;0.11.1!jsonld-java.jar(src)
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-languages;2.2.4!rdf4j-rio-languages.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-modules;RELEASE82!org-openide-modules.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-filesystems;RELEASE82!org-openide-filesystems.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#project-api;0.9.2!project-api.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-collections4;4.1!commons-collections4.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-misc;5.2.1!lucene-misc.jar(src)
-[debug] 	[NOT REQUIRED] com.jcabi#jcabi-manifests;1.1!jcabi-manifests.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-dom;1.9.1!batik-dom.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-jsonld;2.2.4!rdf4j-rio-jsonld.jar(src)
-[debug] 	[NOT REQUIRED] com.itextpdf#itextpdf;5.5.12!itextpdf.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-modules-masterfs;RELEASE82!org-netbeans-modules-masterfs.jar(src)
-[debug] 	[NOT REQUIRED] org.codehaus.jettison#jettison;1.3.3!jettison.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-explorer;RELEASE82!org-openide-explorer.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-util;2.2.4!rdf4j-util.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-sparqljson;2.2.4!rdf4j-queryresultio-sparqljson.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-csv;1.5!commons-csv.jar(src)
-[debug] 	[NOT REQUIRED] net.sf.trove4j#trove4j;3.0.3!trove4j.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-spatial;5.2.1!lucene-spatial.jar(src)
-[debug] 	[NOT REQUIRED] org.postgresql#postgresql;42.1.4.jre7!postgresql.jar(src)
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-http-client;2.2.4!rdf4j-http-client.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-svggen;1.9.1!batik-svggen.jar(src)
-[debug] 	[NOT REQUIRED] net.sf.jung#jung-visualization;2.0.1!jung-visualization.jar(src)
-[debug] 	[NOT REQUIRED] com.github.virtuald#curvesapi;1.04!curvesapi.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-binary;2.2.4!rdf4j-queryresultio-binary.jar(src)
-[debug] 	[NOT REQUIRED] com.tinkerpop.blueprints#blueprints-graph-jung;2.6.0!blueprints-graph-jung.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] 	[NOT REQUIRED] org.gephi#graph-api;0.9.2!graph-api.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-base;2.2.4!rdf4j-sail-base.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-i18n;1.9.1!batik-i18n.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-runtime;2.2.4!rdf4j-runtime.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] net.sourceforge.collections#collections-generic;4.01!collections-generic.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-filesystems-nb;RELEASE82!org-openide-filesystems-nb.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.poi#poi;3.17!poi.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-swing-plaf;RELEASE82!org-netbeans-swing-plaf.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#statistics-plugin;0.9.2!statistics-plugin.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-modules-sampler;RELEASE82!org-netbeans-modules-sampler.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-annotations-common;RELEASE82!org-netbeans-api-annotations-common.jar(src)
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-sail;2.2.4!rdf4j-repository-sail.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-nquads;2.2.4!rdf4j-rio-nquads.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryresultio-api;2.2.4!rdf4j-queryresultio-api.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.gephi#io-generator-api;0.9.2!io-generator-api.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#utils-longtask;0.9.2!utils-longtask.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore-nio;4.4.6!httpcore-nio.jar(src)
+[debug] settings loaded (5ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
 [debug] 	[NOT REQUIRED] org.apache.lucene#lucene-sandbox;5.2.1!lucene-sandbox.jar(src)
-[debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.6!commons-lang.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-explorer;RELEASE82!org-openide-explorer.jar(src)
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.gephi#io-processor-plugin;0.9.2!io-processor-plugin.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-libs-asm;RELEASE82!org-netbeans-libs-asm.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-trix;2.2.4!rdf4j-rio-trix.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-queryparser;5.2.1!lucene-queryparser.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-n3;2.2.4!rdf4j-rio-n3.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryalgebra-evaluation;2.2.4!rdf4j-queryalgebra-evaluation.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-util-lookup;RELEASE82!org-openide-util-lookup.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-query;2.2.4!rdf4j-query.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#filters-plugin;0.9.2!filters-plugin.jar(src)
-[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] net.objecthunter#exp4j;0.4.8!exp4j.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-datatypes;2.2.4!rdf4j-rio-datatypes.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.0!jackson-core.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.gephi#appearance-plugin;0.9.2!appearance-plugin.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryparser-serql;2.2.4!rdf4j-queryparser-serql.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryalgebra-model;2.2.4!rdf4j-queryalgebra-model.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-css;1.9.1!batik-css.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#ui-propertyeditor;0.9.2!ui-propertyeditor.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.tinkerpop#gremlin-shaded;3.3.1!gremlin-shaded.jar(src)
+[debug] settings loaded (6ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-core-startup-base;RELEASE82!org-netbeans-core-startup-base.jar(src)
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-nativerdf;2.2.4!rdf4j-sail-nativerdf.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-federation;2.2.4!rdf4j-sail-federation.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-trig;2.2.4!rdf4j-rio-trig.jar(src)
-[debug] 	[NOT REQUIRED] com.microsoft.sqlserver#mssql-jdbc;6.2.1.jre7!mssql-jdbc.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-transcoder;1.9.1!batik-transcoder.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-api;2.2.4!rdf4j-repository-api.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.modules#org-netbeans-bootstrap;RELEASE82!org-netbeans-bootstrap.jar(src)
-[debug] settings loaded (5ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (5ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-bridge;1.9.1!batik-bridge.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-rdfxml;2.2.4!rdf4j-rio-rdfxml.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#io-importer-api;0.9.2!io-importer-api.jar(src)
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.gephi#io-exporter-preview;0.9.2!io-exporter-preview.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.tinkerpop#gremlin-core;3.3.1!gremlin-core.jar(src)
 [debug] no default ivy user dir defined: set to /Users/juan/.ivy2
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-awt;RELEASE82!org-openide-awt.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-contextaware;2.2.4!rdf4j-repository-contextaware.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryparser-api;2.2.4!rdf4j-queryparser-api.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] net.sf.jung#jung-algorithms;2.1.1!jung-algorithms.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-svg-dom;1.9.1!batik-svg-dom.jar(src)
-[debug] 	[NOT REQUIRED] org.gephi#graphstore;0.5.9!graphstore.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] it.unimi.dsi#fastutil;8.1.0!fastutil.jar(src)
-[debug] 	[NOT REQUIRED] org.mapdb#mapdb;1.0.8!mapdb.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (5ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/juan/.ivy2/cache
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#fluent-hc;4.5.3!fluent-hc.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.0!jackson-databind.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (5ms)
-[debug] 	default cache: /Users/juan/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.gephi#preview-api;0.9.2!preview-api.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.5!commons-io.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-collections4;4.1!commons-collections4.jar(src)
 [debug] 	[NOT REQUIRED] org.yaml#snakeyaml;1.15!snakeyaml.jar(src)
-[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-modules-keyring;RELEASE82!org-netbeans-modules-keyring.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-repository-api;2.2.4!rdf4j-repository-api.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] com.itextpdf#itextpdf;5.5.12!itextpdf.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-queryrender;2.2.4!rdf4j-queryrender.jar(src)
-[debug] settings loaded (5ms)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-ntriples;2.2.4!rdf4j-rio-ntriples.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.0!jackson-databind.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-trix;2.2.4!rdf4j-rio-trix.jar(src)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-modules;RELEASE82!org-openide-modules.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-query;2.2.4!rdf4j-query.jar(src)
+[debug] no default ivy user dir defined: set to /Users/juan/.ivy2
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.0!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-awt;RELEASE82!org-openide-awt.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] 	[NOT REQUIRED] it.unimi.dsi#fastutil;8.1.0!fastutil.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-api-io;RELEASE82!org-netbeans-api-io.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.xmlgraphics#batik-svg-dom;1.9.1!batik-svg-dom.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-sail-spin;2.2.4!rdf4j-sail-spin.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.eclipse.rdf4j#rdf4j-rio-trig;2.2.4!rdf4j-rio-trig.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-filesystems-nb;RELEASE82!org-openide-filesystems-nb.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-text;RELEASE82!org-openide-text.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-loaders;RELEASE82!org-openide-loaders.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#filters-api;0.9.2!filters-api.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (4ms)
 [debug] 	default cache: /Users/juan/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -27115,19 +27027,59 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-memory;5.2.1!lucene-memory.jar(src)
-[debug] 	[NOT REQUIRED] org.jfree#jcommon;1.0.23!jcommon.jar(src)
-[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-swing-outline;RELEASE82!org-netbeans-swing-outline.jar(src)
-[debug] :: resolution report :: resolve 5973ms :: artifacts dl 147ms
-[debug] 	report for default#drugbank-tests$sources;0.1 compile produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-compile.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 runtime produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-runtime.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 test produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-test.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 provided produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-provided.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 optional produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-optional.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 compile-internal produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-compile-internal.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 runtime-internal produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-runtime-internal.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 test-internal produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-test-internal.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 plugin produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-plugin.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 pom produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-pom.xml
-[debug] 	report for default#drugbank-tests$sources;0.1 scala-tool produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-scala-tool.xml
-[debug] 	resolve done (5973ms resolve - 147ms download)
+[debug] no default cache defined: set to /Users/juan/.ivy2/cache
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-modules-editor-mimelookup;RELEASE82!org-netbeans-modules-editor-mimelookup.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (4ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-nodes;RELEASE82!org-openide-nodes.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-dialogs;RELEASE82!org-openide-dialogs.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#appearance-api;0.9.2!appearance-api.jar(src)
+[debug] settings loaded (4ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-netbeans-swing-plaf;RELEASE82!org-netbeans-swing-plaf.jar(src)
+[debug] 	[NOT REQUIRED] org.gephi#utils-longtask;0.9.2!utils-longtask.jar(src)
+[debug] 	[NOT REQUIRED] org.netbeans.api#org-openide-util-lookup;RELEASE82!org-openide-util-lookup.jar(src)
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/juan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (6ms)
+[debug] 	default cache: /Users/juan/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.gephi#layout-api;0.9.2!layout-api.jar(src)
+[debug] 	[NOT REQUIRED] com.univocity#univocity-parsers;2.6.0!univocity-parsers.jar(src)
+[debug] :: resolution report :: resolve 6334ms :: artifacts dl 108ms
+[debug] 	report for default#drugbank-tests$sources;0.1 compile produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-compile.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 runtime produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-runtime.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 test produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-test.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 provided produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-provided.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 optional produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-optional.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 compile-internal produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-compile-internal.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 runtime-internal produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-runtime-internal.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 test-internal produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-test-internal.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 plugin produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-plugin.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 pom produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-pom.xml
+[debug] 	report for default#drugbank-tests$sources;0.1 scala-tool produced in /Users/juan/OneDrive/Trabajo/articulos/2017/future_generation_SI/resubmission/code/github/drugbank-tests/target/scala-2.12/resolution-cache/reports/default-drugbank-tests$sources-scala-tool.xml
+[debug] 	resolve done (6334ms resolve - 108ms download)

@@ -1,8 +1,3 @@
-/**
- * Created by jgomez on 17/01/18.
- * Drug interactions graph generation sample to test running time.
- */
-
 package es.ugr.ugritlab.benchmark.seq;
 
 import com.univocity.parsers.csv.CsvWriter;
@@ -23,17 +18,38 @@ import org.eclipse.rdf4j.model.vocabulary.RDF;
 import org.eclipse.rdf4j.query.*;
 import org.eclipse.rdf4j.repository.RepositoryConnection;
 import org.eclipse.rdf4j.repository.sparql.SPARQLRepository;
+import org.gephi.io.importer.api.EdgeDirectionDefault;
+
 import java.io.*;
 import java.nio.charset.Charset;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * Main class for the sequential benchmark with the DrugBank dataset.
+ *
+ * <p>Set {@link BenchmarkSeq#sparqlEndpoint} field to connecto to the SPARQL endpoint.</p>
+ *
+ * <p>The program accepts one argument: the LIMIT value for the number of drug interactions to retrieve. if
+ * not specified or negative, the LIMIT is set to 0 --i.e. no limit.</p>
+ *
+ * <p>The program generates several files:</p>
+ * <ul>
+ *     <li>files/drugbank/seq/results/[uniqueID]/results.csv: performance statistics</li>
+ *     <li>files/drugbank/triples/triples_[limit].ttl: retrieved triples file, represented with <a href="https://github.com/jgromero/graphdl">GraphDL</a></li>
+ *     <li>files/drugbank/seq/results/[uniqueID]/*: temporal Gephi files</li>
+ *     <li>files/drugbank/seq/results/[uniqueID]/edges_[limit].txt: text file with edge pairs with format [vertex id] [edge id]</li>
+ *     <li>files/drugbank/seq/results/[uniqueID]/tinkergraph.xml: TinkerPop temporal file</li>
+ *     <li>files/drugbank/seq/results/[uniqueID]/graph-layout.graphml: GraphML file after layout</li>
+ * </ul>
+ *
+ * @author Juan Gomez Romero
+ * @version 0.2
+ */
 public class BenchmarkSeq {
 
-    private static final String sparqlEndpoint = "http://35.174.41.109/sparql";
-
-    private static final String triplesFolder = "files/drugbank/triples/";
+    public static final String sparqlEndpoint = ""; // set endpoint URL
 
     public static void main(String[] args) throws Exception {
         String ID = String.valueOf(Instant.now().toEpochMilli());
@@ -56,10 +72,9 @@ public class BenchmarkSeq {
         ArrayList<String> stats = new ArrayList<>();
 
         /* Query remote repository & write to file */
-        String queryString = readFile("files/drugbank/select.sparql", Charset.defaultCharset());
+        String queryString = readFile("files/drugbank/select.sparql", Charset.defaultCharset());    // SELECT is used to avoid CONSTRUCT error with Virtuoso triplestore. @todo Replace with CONSTRUCT
         queryString = queryString.replace("DRUG_LIMIT_CLAUSE", limit>0? "LIMIT " + limit : "");
         queryString = queryString.replace("DRUG_ORDER_CLAUSE", "");
-        // System.out.println(queryString);
 
         SPARQLRepository repo = new SPARQLRepository(sparqlEndpoint);
         repo.initialize();
@@ -87,12 +102,12 @@ public class BenchmarkSeq {
                             .add("graphdl:target", solution.getValue("d2"));
                 nTriples++;
             }
-            System.out.println("Triples=" + nTriples);
         }
         Model model = builder.build();
         long t_endQuery = Instant.now().toEpochMilli();
 
-        // triples
+        // Write triples to folder
+        String triplesFolder = "files/drugbank/triples/";
         long t_startWrite = Instant.now().toEpochMilli();
         PrintWriter writer1 = new PrintWriter(triplesFolder + "triples_" + limit + ".ttl", "UTF-8");
         for(Statement stmt : model) {  // iterate over the result
@@ -110,7 +125,6 @@ public class BenchmarkSeq {
         RDFGraphDL graph = new RDFGraphDL();
         graph.load(model);
         long t_endBuild = Instant.now().toEpochMilli();
-        System.out.println("Processing graph... n: " + graph.getNodeCount() + ", e: " + graph.getEdgeCount());
 
         /* Layout graph with Gephi */
         graph.cleanForGraphML();
@@ -118,11 +132,11 @@ public class BenchmarkSeq {
         long t_startLayout = Instant.now().toEpochMilli();
         GephiLayoutManager lm = new GephiLayoutManager(ID, "files/drugbank/seq/results/" + ID + "/" );
         lm.init();
-        TinkerGraph tinkerLayout = lm.doLayout(tinker);
+        TinkerGraph tinkerLayout = lm.doLayout(tinker, null);
         long t_endLayout = Instant.now().toEpochMilli();
 
         // graph .txt
-        PrintWriter writer2 = new PrintWriter(triplesFolder + "edges_" + limit + ".txt", "UTF-8");
+        PrintWriter writer2 = new PrintWriter("files/drugbank/seq/results/" + ID + "/edges_" + limit + ".txt", "UTF-8");
         Iterator<org.apache.tinkerpop.gremlin.structure.Edge> edges = tinker.edges();
         while(edges.hasNext()) {  // iterate over the result
             org.apache.tinkerpop.gremlin.structure.Edge e = edges.next();
@@ -134,8 +148,8 @@ public class BenchmarkSeq {
         writer2.close();
 
         /* Calculate PageRank */
-        String tmpPageRankFolder = "./tmp/";
-        File tmpPageRankFile = new File("./tmp/tinkergraph.xml");
+        String tmpPageRankFolder = "files/drugbank/seq/results/" + ID + "/";
+        File tmpPageRankFile = new File("files/drugbank/seq/results/" + ID + "/tinkergraph.xml");
         tmpPageRankFile.deleteOnExit();
         tinker.io(IoCore.graphml()).writeGraph(tmpPageRankFile.getAbsolutePath());
         com.tinkerpop.blueprints.impls.tg.TinkerGraph tinkerBlueprints =
@@ -166,6 +180,7 @@ public class BenchmarkSeq {
         System.exit(1);
     }
 
+    /** Fast file reading function */
     private static String readFile(String path, Charset encoding) throws IOException {
         FileInputStream inputStream =new FileInputStream(path);
         String contents = IOUtils.toString(inputStream, encoding.toString());

@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180304165530"/>
+		date="20180413105335"/>
 	<dependencies>
 		<module organisation="org.eclipse.rdf4j" name="rdf4j-runtime">
 			<revision name="2.2.4" status="release" pubdate="20171121175736" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="202">

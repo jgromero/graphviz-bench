@@ -43,7 +43,14 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Optional;
 
+/**
+  * Gephi graph utilities for graph layout.
+  *
+  * @author Juan Gomez Romero
+  * @version 0.2
+ */
 public class GephiLayoutManager {
 
     private ProjectController pc;
@@ -54,12 +61,18 @@ public class GephiLayoutManager {
     private FilterController filterController;
     private File uploads;
 
-    private String DEFAULT_TEMP_GRAPH_NOLAYOUT;      // @todo Change to allow concurrent execution
+    private String DEFAULT_TEMP_GRAPH_NOLAYOUT;      // @todo Change file naming conventions to allow multiple execution
     private String DEFAULT_TEMP_GRAPH_LAYOUT;
     private String DEFAULT_TEMP_GRAPH_LAYOUT_NOATT;
 
     private String tempFolderString;
 
+    /** Set GraphML file names: graph (original graph), graph-layout (graph with layout), graph-layout-noatt (graph
+     *  with layout but with no vertex and node attributes)
+     *
+     *  @param id Unique identifier for files
+     *  @param tempFolderString Folder for temporal files
+     * */
     public GephiLayoutManager(String id, String tempFolderString) {
         String append = "";
         if(id != null) {
@@ -72,6 +85,7 @@ public class GephiLayoutManager {
         this.tempFolderString = tempFolderString == null? "graphs" : tempFolderString;
     }
 
+    /** Initializes Gephi framework. Should be called right after the constructur. */
     public void init() {
         //Init a project - and therefore a workspace
         pc = Lookup.getDefault().lookup(ProjectController.class);
@@ -89,7 +103,18 @@ public class GephiLayoutManager {
         uploads = new File(tempFolderString);
     }
 
-    public TinkerGraph doLayout(TinkerGraph tinkerGraph) throws IOException, ParserConfigurationException, SAXException, TransformerException {
+    /** Performs Fruchterman-Reingold layout for a TinkerGraph with Gephi. Write the results in the graph files
+     *  specified in the constructor.
+     *
+     *  @param tinkerGraph The TinkerPop graph
+     *  @param edgeDirection Edge direction -if null, it is set to {@link EdgeDirectionDefault#DIRECTED}
+     *  @return TinkerGraph with layout positions.
+     */
+    public TinkerGraph doLayout(TinkerGraph tinkerGraph, EdgeDirectionDefault edgeDirection) throws IOException, ParserConfigurationException, SAXException, TransformerException {
+        // @todo Extend to configure layout parameters and select layout algorithm
+
+        if(edgeDirection == null)
+            edgeDirection = EdgeDirectionDefault.DIRECTED;
 
         // Write temp file to be loaded by Gephi
         File graph_file_nolayout = new File(uploads, DEFAULT_TEMP_GRAPH_NOLAYOUT);
@@ -99,12 +124,12 @@ public class GephiLayoutManager {
         Container container;
         File file = new File(uploads, DEFAULT_TEMP_GRAPH_NOLAYOUT);
         container = importController.importFile(file);
-        container.getLoader().setEdgeDefault(EdgeDirectionDefault.DIRECTED);   // Force DIRECTED
+        container.getLoader().setEdgeDefault(edgeDirection);
 
         // Append imported data to GraphAPI
         importController.process(container, new DefaultProcessor(), workspace);
 
-        // Run YifanHuLayout for 100 passes - The layout always takes the current visible view  // @todo Extend to additional layouts --passed as parameters
+        // Run YifanHuLayout for 100 passes - The layout always takes the current visible view
         // YifanHuLayout layout = new YifanHuLayout(null, new StepDisplacement(1f));
         // layout.setGraphModel(graphModel);
         // layout.resetPropertiesValues();
@@ -116,7 +141,7 @@ public class GephiLayoutManager {
         // layout.setBarnesHutTheta(1.2f);
         // layout.setQuadTreeMaxLevel(10);
 
-        // Run FruchtermanReingold for 100 passes - The layout always takes the current visible view  // @todo Extend to additional layouts --passed as parameters
+        // Run FruchtermanReingold for 100 passes - The layout always takes the current visible view
         GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getGraphModel();
         FruchtermanReingold layout = new FruchtermanReingold(new FruchtermanReingoldBuilder());
         layout.setGraphModel(graphModel);

@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180304165530"/>
+		date="20180413105335"/>
 	<dependencies>
 		<module organisation="net.sourceforge.collections" name="collections-generic">
 			<revision name="4.01" status="release" pubdate="20070212192537" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://collections.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="204">
